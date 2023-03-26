@@ -1,0 +1,13 @@
+Java: ошибка: выпуск версии 5 не поддерживается
+
+Модуль test0 SDK 11 не поддерживает исходную версию 1.5.
+Возможные решения:
+- Понизьте версию Project SDK в настройках до версии 1.5 или совместимой. Откройте настройки проекта.
+- Обновите языковую версию в файле сборки Maven до 11. Обновите pom.xml и перезагрузите проект.
+
+
+/home/antoka/IdeaProjects/test0/src/main/java/pl/sibiriakov/test/TestSpring.java:3:43
+Java: невозможно получить доступ к org.springframework.context.support.ClassPathXmlApplicationContext
+   плохой файл класса: /home/antoka/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class
+     файл класса имеет неправильную версию 61.0, должна быть 52.0
+     Удалите или убедитесь, что он отображается в правильном подкаталоге пути к классам.
